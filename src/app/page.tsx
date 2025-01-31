@@ -50,7 +50,7 @@ export default function Home() {
 
       {data && (
         <div className='space-y-4'>
-          <ul className='animated_list grid grid-cols-1 sm:grid-cols-2 gap-6'>
+          <ul className='animated-list grid grid-cols-1 sm:grid-cols-2 gap-6'>
             <li className='flex flex-col'>
               <span className='text-overlay0'>IP</span>
               <span>{data.ip}</span>
